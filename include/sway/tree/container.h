@@ -45,6 +45,9 @@ struct sway_container_state {
 
 	enum sway_fullscreen_mode fullscreen_mode;
 
+	bool inhibit_fullscreen;
+	bool is_fullscreen;
+
 	struct sway_workspace *workspace; // NULL when hidden in the scratchpad
 	struct sway_container *parent;    // NULL if container in root of workspace
 	list_t *children;                 // struct sway_container

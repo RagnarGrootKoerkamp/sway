@@ -69,6 +69,7 @@ sway_sources = files(
 	'commands/gaps.c',
 	'commands/gesture.c',
 	'commands/hide_edge_borders.c',
+	'commands/inhibit_fullscreen.c',
 	'commands/inhibit_idle.c',
 	'commands/kill.c',
 	'commands/mark.c',
